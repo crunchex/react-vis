@@ -14,6 +14,7 @@ const {
   HeatmapChart,
   Histogram,
   LineChart,
+  LineChartManyColors,
   LineChartWithStyle,
   LineChartCanvas,
   LineMarkChart,
@@ -44,6 +45,9 @@ const PLOTS = [{
 }, {
   component: LineChartCanvas,
   name: 'Line Series Canvas'
+}, {
+  component: LineChartManyColors,
+  name: 'Line Series With Many Colors'
 }, {
   component: ScatterplotChart,
   name: 'Mark Series',
